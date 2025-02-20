@@ -140,14 +140,6 @@ img {
   grid-gap: 20px;
 }
 
-.tools-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, auto);
-    gap: 15px;
-    padding: 10px;
-}
-
 /* Gaya untuk bagian Tools (grid 2x3) */
 .tools-grid {
     display: grid;
