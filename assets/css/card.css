@@ -148,3 +148,22 @@
 #project-image:hover {
 	transform: scale(1.1);
 }
+
+.tools-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.tools-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.tool-icon {
+    width: 30px;  /* Sesuaikan ukuran ikon */
+    height: 30px;
+    margin-right: 10px;
+}
