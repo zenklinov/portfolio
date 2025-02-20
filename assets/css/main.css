@@ -148,6 +148,15 @@ img {
     padding: 10px;
 }
 
+/* Gaya untuk bagian Tools (grid 2x3) */
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 15px;
+    padding: 10px;
+}
+
 .tool-item {
     display: flex;
     flex-direction: column;
