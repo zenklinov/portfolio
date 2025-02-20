@@ -1,4 +1,28 @@
-body {
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 15px;
+    padding: 10px;
+}
+
+.tool-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.tool-item img {
+    max-width: 40px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.tool-item span {
+    font-size: 14px;
+    color: #ffffff;
+}body {
   min-width: 360px;
   font-family: 'PT Sans', sans-serif;
   font-size: 16px;
@@ -529,11 +553,12 @@ a {
         grid-template-rows: auto auto;
   }
 
-  .tools-list {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
     gap: 15px;
+    padding: 10px;
 }
 
 .tool-item {
@@ -541,7 +566,6 @@ a {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 100%;
 }
 
 .tool-item img {
@@ -552,7 +576,7 @@ a {
 
 .tool-item span {
     font-size: 14px;
-    color: #ffffff; /* Sesuaikan dengan warna latar belakang gelap di gambar */
+    color: #ffffff;
 }
 	
   .set-size {
