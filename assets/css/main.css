@@ -529,6 +529,21 @@ a {
         grid-template-rows: auto auto;
   }
 
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 20px;
+            justify-items: center;
+        }
+        .tool-item {
+            text-align: center;
+        }
+        .tool-icon img {
+            width: 48px;
+            height: 48px;
+            margin-bottom: 10px;
+        }
+	
   .set-size {
     font-size: 8em;
   }
