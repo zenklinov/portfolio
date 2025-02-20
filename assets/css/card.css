@@ -148,3 +148,9 @@
 #project-image:hover {
 	transform: scale(1.1);
 }
+
+.tool-icon {
+    font-size: 24px; /* Ukuran ikon */
+    margin-right: 10px; /* Jarak antara ikon dan teks */
+    vertical-align: middle; /* Posisi vertikal ikon */
+}
