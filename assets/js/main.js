@@ -18,7 +18,7 @@ function general_utils() {
 }
 
 
-function blog_posts() {
+// function blog_posts() {
     var post_html = []; // Inisialisasi array untuk HTML posting
     var post_template = `<div class="experience-item">Experience Post</div>`; // Ganti "Blog" menjadi "Experience"
 
