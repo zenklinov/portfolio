@@ -11,7 +11,7 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'https://ollama.com/public/ollama.png',
+            image: 'assets/images/ollama.png',
             link: 'https://github.com/zenklinov/Streamlit-Ollama-Llama3.2-Chat',
             title: 'TEST',
             demo: false,
