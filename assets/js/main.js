@@ -1,6 +1,6 @@
 $(document).ready(function() {
     general_utils();
-    // blog_posts();
+    //blog_posts();
 })
 
 
