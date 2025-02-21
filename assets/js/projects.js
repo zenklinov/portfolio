@@ -13,10 +13,10 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/ollama.png',
             link: 'https://github.com/zenklinov/Streamlit-Ollama-Llama3.2-Chat',
-            title: 'TEST',
+            title: 'Local LLM with Ollama',
             demo: false,
             technologies: ['Python'],
-            description: "Project X",
+            description: "Running Local LLM with Ollama",
             categories: ['featured', 'llm']
         },
     ]
