@@ -27,7 +27,7 @@ function general_utils() {
     $('#rss-feeds').html(post_html.join('')); // Gabungkan array dan tampilkan
 }
 
-// function blog_link_click(url) {
+ function blog_link_click(url) {
     window.location = url;
 }
 
