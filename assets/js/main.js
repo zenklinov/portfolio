@@ -1,7 +1,8 @@
 $(document).ready(function() {
     general_utils();
     blog_posts();
-});
+})
+
 
 function general_utils() {
     // smooth scrolling for nav links
@@ -10,11 +11,12 @@ function general_utils() {
     $('.profile-pic-link').smoothScroll();
 
     $('.skillbar').each(function(){
-        $(this).find('.skillbar-bar').animate({
-            width: $(this).attr('data-percent')
-        }, 1000);
-    });
+		$(this).find('.skillbar-bar').animate({
+			width: $(this).attr('data-percent')
+		}, 1000);
+	});
 }
+
 
 function blog_posts() {
     var post_html = []; // Inisialisasi array untuk HTML posting
