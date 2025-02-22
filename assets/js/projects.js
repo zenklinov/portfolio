@@ -13,10 +13,10 @@ let render_projects = (slug) => {
         {
             image: 'https://raw.githubusercontent.com/zenklinov/Streamlit-Ollama-Llama3.2-Chat/main/ollama2.png',
             link: 'https://github.com/zenklinov/Streamlit-Ollama-Llama3.2-Chat',
-            title: 'Local Chatbot LLM with Ollama',
+            title: 'Local LLM Chatbot with Ollama',
             demo: false,
             technologies: ['Python', 'Streamlit', 'Ollama'],
-            description: "Running Local Chatbot LLM with Ollama and deploy with Streamlit",
+            description: "Local LLM Chatbot with Ollama, running on Streamlit.",
             categories: ['featured', 'llm']
         },
     ]
