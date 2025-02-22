@@ -11,7 +11,7 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'assets/images/ollama.png',
+            image: 'https://raw.githubusercontent.com/zenklinov/Streamlit-Ollama-Llama3.2-Chat/main/ollama2.png',
             link: 'https://github.com/zenklinov/Streamlit-Ollama-Llama3.2-Chat',
             title: 'Local LLM with Ollama',
             demo: false,
