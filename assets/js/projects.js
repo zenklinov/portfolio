@@ -16,7 +16,7 @@ let render_projects = (slug) => {
             title: 'Local Chatbot LLM with Ollama',
             demo: false,
             technologies: ['Python', 'Streamlit', 'Ollama'],
-            description: "Running Local Chatbot LLM with Ollama",
+            description: "Running Local Chatbot LLM with Ollama and deploy with Streamlit",
             categories: ['featured', 'llm']
         },
     ]
