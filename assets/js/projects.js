@@ -15,7 +15,7 @@ let render_projects = (slug) => {
             link: 'https://github.com/zenklinov/Streamlit-Ollama-Llama3.2-Chat',
             title: 'Local LLM Chatbot with Ollama',
             demo: false,
-            technologies: ['Python', 'Streamlit', 'Ollama'],
+            technologies: ['Python', 'Streamlit', 'Ollama', 'LangChain'],
             description: "Local LLM Chatbot with Ollama, running on Streamlit.",
             categories: ['featured', 'llm']
         },
@@ -37,6 +37,15 @@ let render_projects = (slug) => {
             description: "Analyzing CSV and Excel (.xlsx) data using LLM, Ollama, and PandasAI",
             categories: ['featured', 'llm']
         },
+        {
+            image: 'https://raw.githubusercontent.com/zenklinov/Predicting_Apple_Stock_Price_using_LSTM_with_Keras_Tuner/main/lstmpredictapple.png',
+            link: 'https://github.com/zenklinov/Predicting_Apple_Stock_Price_using_LSTM_with_Keras_Tuner',
+            title: 'Predicting Apple Stock Price using LSTM with Keras Tuner',
+            demo: false,
+            technologies: ['Python', 'Tensorflow', 'YFinance', 'Keras'],
+            description: "Long Short-Term Memory (LSTM) neural networks to predict Apple’s stock price using historical market data",
+            categories: ['mldl']
+        },   
     ]
 
     let projects = [];
