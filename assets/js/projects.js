@@ -29,7 +29,7 @@ let render_projects = (slug) => {
             categories: ['mldl']
         },
         {
-            image: 'https://raw.githubusercontent.com/zenklinov/Image-recognition/main/classifierresnet50.png',
+            image: 'https://raw.githubusercontent.com/zenklinov/Image-recognition/main/resnet50classifier.png',
             link: 'https://github.com/zenklinov/Image-recognition',
             title: 'Image Classifier with ResNet 50',
             demo: false,
