@@ -15,7 +15,7 @@ let render_projects = (slug) => {
             link: 'https://github.com/zenklinov/Deep-Learning-CNN-vs-RNN',
             title: 'Comparing CNN and RNN in FMNIST Data',
             demo: false,
-            technologies: ['Python', 'Deep Learning'],
+            technologies: ['Python', 'Object Detection'],
             description: "CNN outperforms RNN in recognizing spatial patterns in FMNIST images, while RNN is less optimal as it is designed for sequential data.",
             categories: ['mldl']
         },
