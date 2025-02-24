@@ -28,6 +28,15 @@ let render_projects = (slug) => {
             description: "Comparing Euclidean, Manhattan, and Cosine in K-Means with PCA",
             categories: ['mldl']
         },
+        {
+            image: 'https://raw.githubusercontent.com/zenklinov/Streamlit-CSV-excel-xlsx-Llama3-Ollama-PandasAI/main/analyzeai.png',
+            link: 'https://github.com/zenklinov/Streamlit-CSV-excel-xlsx-Llama3-Ollama-PandasAI',
+            title: 'Local LLM to Analyze Data with Ollama',
+            demo: false,
+            technologies: ['Python', 'Streamlit', 'Ollama', 'PandasAI'],
+            description: "Analyzing CSV and Excel (.xlsx) data using LLM, Ollama, and PandasAI",
+            categories: ['featured', 'llm']
+        },
     ]
 
     let projects = [];
