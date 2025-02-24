@@ -29,7 +29,7 @@ let render_projects = (slug) => {
             categories: ['mldl']
         },
         {
-            image: 'https://raw.githubusercontent.com/zenklinov/Streamlit-CSV-excel-xlsx-Llama3-Ollama-PandasAI/main/analyzeai.png',
+            image: 'https://raw.githubusercontent.com/zenklinov/Streamlit-CSV-excel-xlsx-Llama3-Ollama-PandasAI/main/analyzellm.png',
             link: 'https://github.com/zenklinov/Streamlit-CSV-excel-xlsx-Llama3-Ollama-PandasAI',
             title: 'Local LLM to Analyze Data with Ollama',
             demo: false,
