@@ -11,13 +11,13 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'https://raw.githubusercontent.com/zenklinov/Streamlit-Ollama-Llama3.2-Chat/main/ollama2.png',
-            link: 'https://github.com/zenklinov/Streamlit-Ollama-Llama3.2-Chat',
-            title: 'Local LLM Chatbot with Ollama',
+            image: 'https://raw.githubusercontent.com/zenklinov/Deep-Learning-CNN-vs-RNN/main/cnnrnnfminst.png',
+            link: 'https://github.com/zenklinov/Deep-Learning-CNN-vs-RNN',
+            title: 'Comparing CNN and RNN in FMNIST Data',
             demo: false,
-            technologies: ['Python', 'Streamlit', 'Ollama', 'LangChain'],
-            description: "Local LLM Chatbot with Ollama, running on Streamlit.",
-            categories: ['featured', 'llm']
+            technologies: ['Python', 'Deep Learning'],
+            description: "CNN outperforms RNN in recognizing spatial patterns in FMNIST images, while RNN is less optimal as it is designed for sequential data.",
+            categories: ['mldl']
         },
         {
             image: 'https://raw.githubusercontent.com/zenklinov/Clustering_K-Means_Metrics_PCA/main/cluster_kmeans_metrics_pca.jpg',
@@ -27,6 +27,15 @@ let render_projects = (slug) => {
             technologies: ['Python', 'Cluster', 'Dims. Reduc.'],
             description: "Comparing Euclidean, Manhattan, and Cosine in K-Means with PCA",
             categories: ['mldl']
+        },
+        {
+            image: 'https://raw.githubusercontent.com/zenklinov/Streamlit-Ollama-Llama3.2-Chat/main/ollama2.png',
+            link: 'https://github.com/zenklinov/Streamlit-Ollama-Llama3.2-Chat',
+            title: 'Local LLM Chatbot with Ollama',
+            demo: false,
+            technologies: ['Python', 'Streamlit', 'Ollama', 'LangChain'],
+            description: "Local LLM Chatbot with Ollama, running on Streamlit.",
+            categories: ['featured', 'llm']
         },
         {
             image: 'https://raw.githubusercontent.com/zenklinov/Streamlit-CSV-excel-xlsx-Llama3-Ollama-PandasAI/main/analyzellm.png',
@@ -46,6 +55,24 @@ let render_projects = (slug) => {
             description: "Long Short-Term Memory (LSTM) neural networks to predict Apple’s stock price using historical market data",
             categories: ['mldl']
         },   
+        {
+            image: 'https://raw.githubusercontent.com/zenklinov/nasapower/main/output_map.png',
+            link: 'https://github.com/zenklinov/nasapower',
+            title: 'Scraping NASA Power Data',
+            demo: false,
+            technologies: ['R', 'Python', 'GeoPandas', 'Scraping'],
+            description: "Getting Getting Data NASA POWER, in Regional by Single Point approach. ",
+            categories: ['featured','bigdata']
+        },
+        {
+            image: 'https://raw.githubusercontent.com/zenklinov/tweepy/main/tweepy.png',
+            link: 'https://github.com/zenklinov/tweepy',
+            title: 'Scraping Twitter/X Data',
+            demo: false,
+            technologies: ['R', 'Python', 'Tweepy', 'Scraping'],
+            description: "Getting Getting Official Data Twitter/X. ",
+            categories: ['bigdata']
+        },
     ]
 
     let projects = [];
