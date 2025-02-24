@@ -29,6 +29,15 @@ let render_projects = (slug) => {
             categories: ['mldl']
         },
         {
+            image: 'https://raw.githubusercontent.com/zenklinov/Image-recognition/main/classifierresnet50.png',
+            link: 'https://github.com/zenklinov/Image-recognition',
+            title: 'Image Classifier with ResNet 50',
+            demo: false,
+            technologies: ['Python', 'Torch', 'Streamlit'],
+            description: "An image classifier built with ResNet-50 using Python, Torch, and Streamlit Cloud",
+            categories: ['mldl']
+        },
+        {
             image: 'https://raw.githubusercontent.com/zenklinov/Streamlit-Ollama-Llama3.2-Chat/main/ollama2.png',
             link: 'https://github.com/zenklinov/Streamlit-Ollama-Llama3.2-Chat',
             title: 'Local LLM Chatbot with Ollama',
