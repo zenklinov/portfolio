@@ -19,6 +19,15 @@ let render_projects = (slug) => {
             description: "Local LLM Chatbot with Ollama, running on Streamlit.",
             categories: ['featured', 'llm']
         },
+        {
+            image: 'https://raw.githubusercontent.com/zenklinov/Clustering_K-Means_Metrics_PCA/main/cluster_kmeans_metrics_pca.jpg',
+            link: 'https://github.com/zenklinov/Clustering_K-Means_Metrics_PCA',
+            title: 'Comparing Metrics in K-Means with PCA',
+            demo: false,
+            technologies: ['Python', 'Clustering', 'Dimensional Reduction'],
+            description: "Comparing Euclidean, Manhattan, and Cosine in K-Means with PCA",
+            categories: ['mldl']
+        },
     ]
 
     let projects = [];
