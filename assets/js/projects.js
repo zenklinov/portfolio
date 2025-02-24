@@ -24,7 +24,7 @@ let render_projects = (slug) => {
             link: 'https://github.com/zenklinov/Clustering_K-Means_Metrics_PCA',
             title: 'Comparing Metrics in K-Means with PCA',
             demo: false,
-            technologies: ['Python', 'Clustering', 'Dimensional Reduction'],
+            technologies: ['Python', 'Cluster', 'Dims. Reduc.'],
             description: "Comparing Euclidean, Manhattan, and Cosine in K-Means with PCA",
             categories: ['mldl']
         },
