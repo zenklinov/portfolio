@@ -74,6 +74,15 @@ let render_projects = (slug) => {
             categories: ['mldl']
         },   
         {
+            image: 'https://raw.githubusercontent.com/zenklinov/google-play-scraper/main/gplayscrap.png',
+            link: 'https://github.com/zenklinov/google-play-scraper',
+            title: 'Scraping Google Play Store Reviews',
+            demo: false,
+            technologies: ['Python', 'Google Play', 'Scraping'],
+            description: "Scraping Google Play Store Reviews, The final DataFrame includes Review ID, Content, and Score",
+            categories: ['bigdata']
+        },
+        {
             image: 'https://raw.githubusercontent.com/zenklinov/nasapower/main/output_map.png',
             link: 'https://github.com/zenklinov/nasapower',
             title: 'Scraping NASA Power Data',
