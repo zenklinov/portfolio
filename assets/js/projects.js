@@ -56,6 +56,15 @@ let render_projects = (slug) => {
             categories: ['featured', 'llm']
         },
         {
+            image: 'https://raw.githubusercontent.com/zenklinov/PCA/main/pca.png',
+            link: 'https://github.com/zenklinov/PCA',
+            title: 'Principal Component Analysis or PCA',
+            demo: false,
+            technologies: ['R', 'Dims. Reducs.'],
+            description: "PCA is a statistical technique for reducing the dimensionality of a dataset",
+            categories: ['mldl']
+        },   
+        {
             image: 'https://raw.githubusercontent.com/zenklinov/Predicting_Apple_Stock_Price_using_LSTM_with_Keras_Tuner/main/lstmpredictapple.png',
             link: 'https://github.com/zenklinov/Predicting_Apple_Stock_Price_using_LSTM_with_Keras_Tuner',
             title: 'Predicting Apple Stock Price using LSTM with Keras Tuner',
