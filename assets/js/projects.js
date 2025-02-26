@@ -11,6 +11,15 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
+            image: 'https://raw.githubusercontent.com/zenklinov/Database_Python/main/Integrate-pg-in-py.png',
+            link: 'https://github.com/zenklinov/Database_Python',
+            title: 'Connecting Python to PostgreSQL',
+            demo: false,
+            technologies: ['Python', 'PostgreSQL'],
+            description: "Integrating Python to PostgreSQL",
+            categories: ['bigdata']
+        },
+        {
             image: 'https://raw.githubusercontent.com/zenklinov/Deep-Learning-CNN-vs-RNN/main/cnnrnnfminst.png',
             link: 'https://github.com/zenklinov/Deep-Learning-CNN-vs-RNN',
             title: 'Comparing CNN and RNN in FMNIST Data',
@@ -44,7 +53,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['Python', 'Streamlit', 'Ollama', 'LangChain'],
             description: "Local LLM Chatbot with Ollama, running on Streamlit.",
-            categories: ['featured', 'llm']
+            categories: ['llm']
         },
         {
             image: 'https://raw.githubusercontent.com/zenklinov/Streamlit-CSV-excel-xlsx-Llama3-Ollama-PandasAI/main/analyzellm.png',
@@ -53,7 +62,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['Python', 'Streamlit', 'Ollama', 'PandasAI'],
             description: "Analyzing CSV and Excel (.xlsx) data using LLM, Ollama, and PandasAI",
-            categories: ['featured', 'llm']
+            categories: ['llm']
         },
         {
             image: 'https://raw.githubusercontent.com/zenklinov/Hotelling-T-Square/main/hotellingt2.png',
@@ -83,15 +92,6 @@ let render_projects = (slug) => {
             categories: ['mldl']
         },   
         {
-            image: 'https://raw.githubusercontent.com/zenklinov/Database_Python/main/Integrate-pg-in-py.png',
-            link: 'https://github.com/zenklinov/Database_Python',
-            title: 'Python to PostgreSQL Connection',
-            demo: false,
-            technologies: ['Python', 'PostgreSQL'],
-            description: "Integrating Python to PostgreSQL",
-            categories: ['bigdata']
-        },
-        {
             image: 'https://raw.githubusercontent.com/zenklinov/google-play-scraper/main/gplayscrap.png',
             link: 'https://github.com/zenklinov/google-play-scraper',
             title: 'Scraping Google Play Store Reviews',
@@ -107,7 +107,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['R', 'Python', 'GeoPandas', 'Scraping'],
             description: "Getting Data NASA POWER, in Regional by Single Point approach. ",
-            categories: ['featured','bigdata']
+            categories: ['bigdata']
         },
         {
             image: 'https://raw.githubusercontent.com/zenklinov/tweepy/main/tweepy.png',
