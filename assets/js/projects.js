@@ -83,6 +83,15 @@ let render_projects = (slug) => {
             categories: ['mldl']
         },   
         {
+            image: 'https://raw.githubusercontent.com/zenklinov/Database_Python/main/Integrate-pg-in-py.png',
+            link: 'https://github.com/zenklinov/Database_Python',
+            title: 'Python to PostgreSQL Connection',
+            demo: false,
+            technologies: ['Python', 'PostgreSQL'],
+            description: "Integrating Python to PostgreSQL",
+            categories: ['bigdata']
+        },
+        {
             image: 'https://raw.githubusercontent.com/zenklinov/google-play-scraper/main/gplayscrap.png',
             link: 'https://github.com/zenklinov/google-play-scraper',
             title: 'Scraping Google Play Store Reviews',
