@@ -56,6 +56,15 @@ let render_projects = (slug) => {
             categories: ['featured', 'llm']
         },
         {
+            image: 'https://raw.githubusercontent.com/zenklinov/Hotelling-T-Square/main/hotelling.png',
+            link: 'https://iptek.its.ac.id/index.php/inferensi/article/view/18751',
+            title: 'Multivariate Control Chart Hotelling T-Square with Dimension Reduction using FAMD and Autoencoder',
+            demo: false,
+            technologies: ['Research', 'Multivariate Analysis', 'Dims. Reduc.'],
+            description: "Compare the performance of conventional T2 with T2 integrated with FAMD and Autoencoder",
+            categories: ['mldl']
+        },
+        {
             image: 'https://raw.githubusercontent.com/zenklinov/Predicting_Apple_Stock_Price_using_LSTM_with_Keras_Tuner/main/lstmpredictapple.png',
             link: 'https://github.com/zenklinov/Predicting_Apple_Stock_Price_using_LSTM_with_Keras_Tuner',
             title: 'Predicting Apple Stock Price using LSTM with Keras Tuner',
