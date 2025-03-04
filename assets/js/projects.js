@@ -123,7 +123,7 @@ let render_projects = (slug) => {
             link: 'https://github.com/zenklinov/IBM_Machine_Learning_Capstone',
             title: 'Various-Based Recommender Systems',
             demo: false,
-            technologies: ['Python', 'Recommender Sys.'],
+            technologies: ['Python', 'Recommender Systems'],
             description: "Content-Based, Clustering-Based, KNN-Based, NMF-Based, and NN-Based Recommender System associated IBM Coursera",
             categories: ['mldl']
         },  
