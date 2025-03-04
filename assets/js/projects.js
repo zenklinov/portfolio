@@ -90,7 +90,7 @@ let render_projects = (slug) => {
             technologies: ['R', 'Dims. Reducs.'],
             description: "PCA is a statistical technique for reducing the dimensionality of a dataset",
             categories: ['mldl']
-        },   
+        },    
         {
             image: 'https://raw.githubusercontent.com/zenklinov/google-play-scraper/main/gplayscrap.png',
             link: 'https://github.com/zenklinov/google-play-scraper',
@@ -118,6 +118,15 @@ let render_projects = (slug) => {
             description: "Getting Official Data Twitter/X. ",
             categories: ['bigdata']
         },
+        {
+            image: 'https://raw.githubusercontent.com/zenklinov/IBM_Machine_Learning_Capstone/main/recommend.jpg.png',
+            link: 'https://github.com/zenklinov/IBM_Machine_Learning_Capstone',
+            title: 'Various-Based Recommender Systems',
+            demo: false,
+            technologies: ['Python', 'Recommender Sys.'],
+            description: "Content-Based, Clustering-Based, KNN-Based, NMF-Based, and NN-Based Recommender System associated IBM Coursera",
+            categories: ['mldl']
+        },  
     ]
 
     let projects = [];
