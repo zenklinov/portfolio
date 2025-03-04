@@ -119,7 +119,7 @@ let render_projects = (slug) => {
             categories: ['bigdata']
         },
         {
-            image: 'https://raw.githubusercontent.com/zenklinov/IBM_Machine_Learning_Capstone/main/recommend.jpg.png',
+            image: 'https://raw.githubusercontent.com/zenklinov/IBM_Machine_Learning_Capstone/main/recommend.jpg',
             link: 'https://github.com/zenklinov/IBM_Machine_Learning_Capstone',
             title: 'Various-Based Recommender Systems',
             demo: false,
