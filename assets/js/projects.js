@@ -38,6 +38,15 @@ let render_projects = (slug) => {
             categories: ['mldl']
         },
         {
+            image: 'https://raw.githubusercontent.com/zenklinov/Finetuning_Large_Language_Models/main/finetune.jpg',
+            link: 'https://github.com/zenklinov/Finetuning_Large_Language_Models',
+            title: 'Finetuning Large Language Model',
+            demo: false,
+            technologies: ['Python', 'lamini'],
+            description: "Finetuning LLM with Lamini associated DeepLearning.AI at Coursera",
+            categories: ['llm']
+        },
+        {
             image: 'https://raw.githubusercontent.com/zenklinov/Image-recognition/main/resnet50classifier.png',
             link: 'https://github.com/zenklinov/Image-recognition',
             title: 'Image Classifier with ResNet 50',
