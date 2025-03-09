@@ -74,7 +74,7 @@ let render_projects = (slug) => {
             categories: ['llm']
         },
         {
-            image: 'https://raw.githubusercontent.com/zenklinov/Hotelling-T-Square/main/hotellingt2.png',
+            image: 'https://raw.githubusercontent.com/zenklinov/Hotelling-T-Square/main/controlchartt2.png',
             link: 'https://iptek.its.ac.id/index.php/inferensi/article/view/18751',
             title: 'Multivariate Control Chart Hotelling T-Square with Dimension Reduction using FAMD and Autoencoder',
             demo: false,
