@@ -1,30 +1,31 @@
-<section class="cv-section">
+<section class="section cv" id="cv">
   <div class="container">
-    <h2 class="section-title">Curriculum Vitae / Resume</h2>
-    
-    <div class="cv-content">
-      <p class="instruction-text">
-        You can view my CV embedded below. If the embed doesn't load, or you prefer, 
-        you can download the file directly.
-      </p>
+    <!-- Judul -->
+    <h2 class="section-title text-center">Curriculum Vitae / Resume</h2>
 
-      <div class="pdf-container">
-        <iframe 
-          class="pdf-viewer" 
-          src="assets/cv/cv.pdf" 
-          title="CV Document"
-          loading="lazy">
-          <p class="pdf-fallback">
-            It seems your browser cannot display the embedded PDF.
-            <br>
-            <a href="assets/cv/cv.pdf" class="download-link">Download CV (PDF)</a>
-          </p>
-        </iframe>
+    <!-- Ringkasan CV -->
+    <div class="cv-summary text-center">
+      <p>Saya adalah seorang insinyur perangkat lunak dengan pengalaman lebih dari 5 tahun di bidang pengembangan web, khususnya teknologi front-end.</p>
+      <h3>Pencapaian Utama</h3>
+      <ul>
+        <li>Mengembangkan situs web e-commerce dengan lalu lintas tinggi menggunakan React dan Node.js.</li>
+        <li>Mengoptimalkan performa situs web, mengurangi waktu muat sebesar 30%.</li>
+        <li>Memimpin tim beranggotakan 3 pengembang dalam pengiriman proyek yang sukses.</li>
+      </ul>
+      <p>Untuk detail lebih lanjut tentang pengalaman profesional saya, silakan lihat CV lengkap saya di bawah ini.</p>
+    </div>
+
+    <!-- Penampil PDF -->
+    <div class="pdf-viewer" style="max-width: 900px; margin: 20px auto;">
+      <div style="position: relative; width: 100%; padding-top: 141%;">
+        <iframe src="assets/cv/cv.pdf" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 1px solid #ddd;"></iframe>
       </div>
+    </div>
 
-      <a href="assets/cv/cv.pdf" class="download-button" download>
-        <i class="fa fa-download" aria-hidden="true"></i>
-        <span class="button-text">Download CV (PDF)</span>
+    <!-- Tautan Unduh -->
+    <div class="text-center">
+      <a href="assets/cv/cv.pdf" class="btn btn-primary" target="_blank" download>
+        <i class="fa fa-download"></i> Download CV (PDF)
       </a>
     </div>
   </div>
