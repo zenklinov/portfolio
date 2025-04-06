@@ -15,16 +15,35 @@
     </div></section>
 </div> -->
 
-<section id="cv" class="section cv-section">
-  <div class="container">
-    <h2 class="section-title text-center">Curriculum Vitae / Resume</h2>
+Okay, here is the content for the _includes/curriculumvitae.html file. This code will create a section that embeds your PDF CV using an <iframe> and also provides a direct download link.
+
+File: _includes/curriculumvitae.html
+
+HTML
+
+<div class="section-wrapper">
+  <section class="section CV" id="CV">
+        <div id="CV-text">
+            <div class="section-heading">Curriculum Vitae</div>
 
     <div class="cv-container text-center" style="margin-top: 30px;">
+
+      <p>
+        You can view my CV embedded below. If the embed doesn't load, or you prefer, you can download the file directly.
+      </p>
 
       <div class="pdf-viewer" style="margin-top: 20px; margin-bottom: 20px; max-width: 900px; margin-left: auto; margin-right: auto;">
         <iframe src="assets/cv/cv.pdf" width="100%" height="700px" style="border: 1px solid #ddd;">
             <p style="text-align: center; padding: 20px;">
+              It seems your browser cannot display the embedded PDF.
+              <br>
+              Please use the download link below.
+            </p>
         </iframe>
       </div>
+
+      <a href="assets/cv/cv.pdf" class="btn btn-primary" target="_blank" download>
+        <i class="fa fa-download"></i> Download CV (PDF)
+      </a>
 
     </div></div></section>
