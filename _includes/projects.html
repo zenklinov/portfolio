@@ -2,24 +2,24 @@
     <section class="section projects" id="projects">
         <div class="full-width">
             <div class="section-heading" id="featured-projects-text">Projects</div>
-            <div class="project-technologies">
-                <a id="all" class="semi-transparent-button with-border white-button" onclick="selected('all')">All</a>
-                <a id="mldl" class="semi-transparent-button with-border white-button" onclick="selected('mldl')">ML/DL</a>
-                <a id="bigdata" class="semi-transparent-button with-border white-button" onclick="selected('bigdata')">Big Data</a>
-                <a id="llm" class="semi-transparent-button with-border white-button" onclick="selected('llm')">LLM</a>
-                <a id="research" class="semi-transparent-button with-border white-button" onclick="selected('research')">Research</a>
-                <a id="dashboard" class="semi-transparent-button with-border white-button" onclick="selected('dashboard')">Dashboard</a>
-            </div>
+            
+                <div class="project-technologies">
+                    <a id="all" class="semi-transparent-button with-border white-button" onclick="selected('all')">All</a>
+                    <a id="mldl" class="semi-transparent-button with-border white-button" onclick="selected('mldl')">ML/DL</a>
+                    <a id="bigdata" class="semi-transparent-button with-border white-button" onclick="selected('bigdata')">Big Data</a>
+                    <a id="llm" class="semi-transparent-button with-border white-button" onclick="selected('llm')">LLM</a>
+                    <a id="research" class="semi-transparent-button with-border white-button" onclick="selected('research')">Research</a>
+                    <a id="dashboard" class="semi-transparent-button with-border white-button" onclick="selected('dashboard')">Dashboard</a>
+                </div>
+
             <div class="projects-wrapper">
                 <!-- filled in by js -->
             </div>
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    document.getElementById('all').click();
+                });
+            </script>
         </div>
     </section>
 </div>
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        console.log("DOMContentLoaded triggered");
-        document.getElementById('all').click();
-    });
-</script>
-</body>
