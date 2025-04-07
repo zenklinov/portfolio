@@ -47,6 +47,15 @@ let render_projects = (slug) => {
             categories: ['llm']
         },
         {
+            image: 'https://raw.githubusercontent.com/zenklinov/Genetic-Algorithm-Optimization-Balancing-Matchmaking-Game-MOBA-5vs5/main/genalgo.png',
+            link: 'https://github.com/zenklinov/Genetic-Algorithm-Optimization-Balancing-Matchmaking-Game-MOBA-5vs5',
+            title: 'Genetic Algorithm Optimization Balancing Matchmaking Game 5vs5',
+            demo: false,
+            technologies: ['Python', 'Machine Learning'],
+            description: "Balancing Matchmaking Game MOBA 5 vs 5 using Genetic Algorithm",
+            categories: ['llm']
+        },
+        {
             image: 'https://raw.githubusercontent.com/zenklinov/Image-recognition/main/resnet50classifier.png',
             link: 'https://github.com/zenklinov/Image-recognition',
             title: 'Image Classifier with ResNet 50',
