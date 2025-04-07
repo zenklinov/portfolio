@@ -53,7 +53,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['Python', 'Machine Learning'],
             description: "Balancing Matchmaking Game MOBA 5 vs 5 using Genetic Algorithm",
-            categories: ['llm']
+            categories: ['mldl']
         },
         {
             image: 'https://raw.githubusercontent.com/zenklinov/Image-recognition/main/resnet50classifier.png',
