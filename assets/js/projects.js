@@ -11,6 +11,15 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
+            image: 'https://raw.githubusercontent.com/zenklinov/Customer-Segmentation/main/custseg.png',
+            link: 'https://github.com/zenklinov/Customer-Segmentation',
+            title: 'Customer Segmentation (RFM + K‑Means)',
+            demo: false,
+            technologies: ['Python', 'Scikit-Learn'],
+            description: "An interactive Streamlit app that performs customer segmentation using RFM analysis (Recency, Frequency, Monetary) and K‑Means clustering. ",
+            categories: ['mldl']
+        },
+        {
             image: 'https://raw.githubusercontent.com/zenklinov/Database_Python/main/Integrate-pg-in-py.png',
             link: 'https://github.com/zenklinov/Database_Python',
             title: 'Connecting Python to PostgreSQL',
