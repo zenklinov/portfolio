@@ -11,6 +11,24 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
+            image: 'https://raw.githubusercontent.com/zenklinov/Canonical-Correlation-Analysis-CCA/main/CCA_Gemini.png',
+            link: 'https://github.com/zenklinov/Canonical-Correlation-Analysis-CCA',
+            title: 'Canonical Correlation Analysis (CCA)',
+            demo: false,
+            technologies: ['Python', 'Scikit-Learn', 'Multivariate'],
+            description: "Implementations and business use cases of Canonical Correlation Analysis (CCA). ",
+            categories: ['mldl']
+        },
+        {
+            image: 'https://raw.githubusercontent.com/zenklinov/Conjoint-Analysis/main/Conjoint_Gemini.png',
+            link: 'https://github.com/zenklinov/Conjoint-Analysis',
+            title: 'Conjoint Analysis',
+            demo: false,
+            technologies: ['Python', 'Statsmodel', 'Multivariate'],
+            description: "Determine how people value different features that make up an individual product or service ",
+            categories: ['mldl']
+        },
+        {
             image: 'https://raw.githubusercontent.com/zenklinov/Customer-Segmentation/main/custseg.png',
             link: 'https://github.com/zenklinov/Customer-Segmentation',
             title: 'Customer Segmentation (RFM + K‑Means)',
