@@ -74,6 +74,15 @@ let render_projects = (slug) => {
             categories: ['mldl']
         },
         {
+            image: 'https://raw.githubusercontent.com/zenklinov/Latin-Hypercube-Sampling/main/LHS_Data_Generator.png',
+            link: 'https://github.com/zenklinov/Latin-Hypercube-Sampling',
+            title: 'Latin Hypercube Sampling Data Generator',
+            demo: false,
+            technologies: ['Data Generator', 'Streamlit'],
+            description: "Demonstrate how LHS techniques generate data",
+            categories: ['mldl']
+        },
+        {
             image: 'https://raw.githubusercontent.com/zenklinov/Streamlit-Ollama-Llama3.2-Chat/main/ollama2.png',
             link: 'https://github.com/zenklinov/Streamlit-Ollama-Llama3.2-Chat',
             title: 'Local LLM Chatbot with Ollama',
@@ -90,6 +99,15 @@ let render_projects = (slug) => {
             technologies: ['Python', 'Streamlit', 'Ollama', 'PandasAI'],
             description: "Analyzing CSV and Excel (.xlsx) data using LLM, Ollama, and PandasAI",
             categories: ['llm']
+        },
+        {
+            image: 'https://raw.githubusercontent.com/zenklinov/Markov-Chain-Monte-Carlo/main/MCMC_Data_Generator.png',
+            link: 'https://github.com/zenklinov/Markov-Chain-Monte-Carlo',
+            title: 'Markov Chain Monte Carlo Data Generator',
+            demo: false,
+            technologies: ['Data Generator', 'Streamlit'],
+            description: "Demonstrate how MCMC techniques generate data",
+            categories: ['mldl']
         },
         {
             image: 'https://raw.githubusercontent.com/zenklinov/Hotelling-T-Square/main/controlchartt2.png',
