@@ -74,7 +74,7 @@ let render_projects = (slug) => {
             categories: ['mldl']
         },
         {
-            image: 'https://raw.githubusercontent.com/zenklinov/Factor_Analysis/main/Gemini_FA.jpg',
+            image: 'https://raw.githubusercontent.com/zenklinov/Factor_Analysis/main/Gemini_FA.png',
             link: 'https://github.com/zenklinov/Factor_Analysis',
             title: 'Factor Analysis: Employee Performance Analytics',
             demo: false,
