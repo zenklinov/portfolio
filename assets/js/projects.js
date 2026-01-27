@@ -29,6 +29,15 @@ let render_projects = (slug) => {
             categories: ['mldl']
         },
         {
+            image: 'https://raw.githubusercontent.com/zenklinov/Customer-Churn-Prediction/main/Gemini_Churn_Analysis.png',
+            link: 'https://github.com/zenklinov/Customer-Churn-Prediction',
+            title: 'Customer Churn Prediction',
+            demo: false,
+            technologies: ['Python', 'Scikit-Learn'],
+            description: "Analyzes customer demographics, services, and account information to identify patterns indicating whether a customer is likely to leave (churn) ",
+            categories: ['mldl']
+        },
+        {
             image: 'https://raw.githubusercontent.com/zenklinov/Customer-Segmentation/main/custseg.png',
             link: 'https://github.com/zenklinov/Customer-Segmentation',
             title: 'Customer Segmentation (RFM + K‑Means)',
@@ -65,6 +74,15 @@ let render_projects = (slug) => {
             categories: ['mldl']
         },
         {
+            image: 'https://raw.githubusercontent.com/zenklinov/Factor_Analysis/main/Gemini_FA.jpg',
+            link: 'https://github.com/zenklinov/Factor_Analysis',
+            title: 'Factor Analysis: Employee Performance Analytics',
+            demo: false,
+            technologies: ['Python', 'Semopy'],
+            description: "Demonstrates a complete workflow for Factor Analysis by analyzing employee performance data",
+            categories: ['mldl']
+            },
+        {
             image: 'https://raw.githubusercontent.com/zenklinov/Finetuning_Large_Language_Models/main/finetune.jpg',
             link: 'https://github.com/zenklinov/Finetuning_Large_Language_Models',
             title: 'Finetuning Large Language Model',
@@ -90,6 +108,24 @@ let render_projects = (slug) => {
             technologies: ['Python', 'Torch', 'Streamlit'],
             description: "An image classifier built with ResNet-50 using Python, Torch, and Streamlit Cloud",
             categories: ['mldl']
+        },
+        {
+            image: 'https://raw.githubusercontent.com/zenklinov/Instrumental-Variables/main/Gemini_IV.png',
+            link: 'https://github.com/zenklinov/Instrumental-Variables',
+            title: 'Instrumental Variables (IV) Analysis: Education & Income',
+            demo: false,
+            technologies: ['Python', 'Casual Inference'],
+            description: "Instrumental Variables (IV) analysis using Two-Stage Least Squares (2SLS)",
+            categories: ['mldl']
+        },
+        {
+            image: 'https://raw.githubusercontent.com/zenklinov/HPC_-_AI_Infrastructure_Architect_Level_3_Advanced_-The_Orchestrator-/main/the_orchestrator.png',
+            link: 'https://github.com/zenklinov/HPC_-_AI_Infrastructure_Architect_Level_3_Advanced_-The_Orchestrator-',
+            title: 'K8s GPU Cluster with Auto-Scaling & Monitoring',
+            demo: false,
+            technologies: ['Python', 'HPC', 'AI Architect'],
+            description: "An Orchestration Framework for high-performance computing resources",
+            categories: ['bigdata']
         },
         {
             image: 'https://raw.githubusercontent.com/zenklinov/Latin-Hypercube-Sampling/main/LHS_Data_Generator.png',
@@ -128,6 +164,15 @@ let render_projects = (slug) => {
             categories: ['mldl']
         },
         {
+            image: 'https://raw.githubusercontent.com/zenklinov/HPC_-_AI_Infrastructure_Architect_Level_4_Expert_Architect_-The_HPC_Beast-/main/the_hpc_beast.png',
+            link: 'https://github.com/zenklinov/HPC_-_AI_Infrastructure_Architect_Level_4_Expert_Architect_-The_HPC_Beast-',
+            title: 'Mini-HPC Cluster for Distributed Training (Slurm / Ray)',
+            demo: false,
+            technologies: ['Python', 'HPC', 'AI Architect'],
+            description: "Bridges the gap between traditional HPC (Slurm) and modern AI-native scheduling (Ray)",
+            categories: ['bigdata']
+        },
+        {
             image: 'https://raw.githubusercontent.com/zenklinov/Hotelling-T-Square/main/controlchartt2.png',
             link: 'https://iptek.its.ac.id/index.php/inferensi/article/view/18751',
             title: 'Multivariate Control Chart Hotelling T-Square with Dimension Reduction using FAMD and Autoencoder',
@@ -135,6 +180,15 @@ let render_projects = (slug) => {
             technologies: ['Multivariate Analysis', 'Dims. Reduc.'],
             description: "Compare the performance of conventional T2 with T2 integrated with FAMD and Autoencoder",
             categories: ['research']
+        },
+        {
+            image: 'https://raw.githubusercontent.com/zenklinov/HPC_-_AI_Infrastructure_Architect_level_1_Beginner-The_Container_Foundations-/main/the_container.png',
+            link: 'https://github.com/zenklinov/HPC_-_AI_Infrastructure_Architect_level_1_Beginner-The_Container_Foundations-',
+            title: 'Portable AI Lab with Docker & Nvidia Runtime',
+            demo: false,
+            technologies: ['Python', 'HPC', 'AI Architect'],
+            description: "Reproducible Deep Learning environment that leverages Docker and the NVIDIA Container Toolkit",
+            categories: ['bigdata']
         },
         {
             image: 'https://raw.githubusercontent.com/zenklinov/Predicting_Apple_Stock_Price_using_LSTM_with_Keras_Tuner/main/lstmpredictapple.png',
@@ -152,6 +206,15 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['R', 'Dims. Reducs.'],
             description: "PCA is a statistical technique for reducing the dimensionality of a dataset",
+            categories: ['mldl']
+        },    
+        {
+            image: 'https://raw.githubusercontent.com/zenklinov/Runge-Kutta-Order-4/main/rk4.png',
+            link: 'https://github.com/zenklinov/Runge-Kutta-Order-4',
+            title: 'Runge-Kutta 4th Order Simulation Hub',
+            demo: false,
+            technologies: ['Python', 'Streamlit', 'Data Generator'],
+            description: "Runge-Kutta 4th order method to solve and visualize the solutions of various ordinary differential equations (ODEs)",
             categories: ['mldl']
         },    
         {
@@ -179,6 +242,15 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['R', 'Python', 'Tweepy', 'Scraping'],
             description: "Getting Official Data Twitter/X. ",
+            categories: ['bigdata']
+        },
+        {
+            image: 'https://raw.githubusercontent.com/zenklinov/HPC_-_AI_Infrastructure_Architect_Level_2_Intermediate-The_Cloud_Automator-/main/the_cloud_automator.png',
+            link: 'https://github.com/zenklinov/HPC_-_AI_Infrastructure_Architect_Level_2_Intermediate-The_Cloud_Automator-',
+            title: 'Terraform-Provisioned AI Inference Server',
+            demo: false,
+            technologies: ['Python', 'HPC', 'AI Architect'],
+            description: "A fully automated Infrastructure as Code (IaC) pipeline to provision a GPU-enabled AI Inference Server from scratch",
             categories: ['bigdata']
         },
         {
