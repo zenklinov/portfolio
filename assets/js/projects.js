@@ -11,6 +11,15 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
+            image: 'https://raw.githubusercontent.com/zenklinov/architecture/system_design.png',
+            link: 'https://github.com/zenklinov/AutoML-System-with-Neural-Architecture-Search',
+            title: 'AutoML System with Neural Architecture Search',
+            demo: false,
+            technologies: ['PyTorch', 'Ray Tune', 'Optuna'],
+            description: "Enterprise-grade AutoML system implementing distributed Neural Architecture Search (NAS) with cost-aware GPU orchestration, fault tolerance, and scalable cloud-native design. ",
+            categories: ['mldl', 'bigdata']
+        },
+        {
             image: 'https://raw.githubusercontent.com/zenklinov/Canonical-Correlation-Analysis-CCA/main/CCA_Gemini.png',
             link: 'https://github.com/zenklinov/Canonical-Correlation-Analysis-CCA',
             title: 'Canonical Correlation Analysis (CCA)',
