@@ -11,7 +11,7 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'https://raw.githubusercontent.com/zenklinov/architecture/system_design.png',
+            image: 'https://raw.githubusercontent.com/zenklinov/architecture/main/system_design.png',
             link: 'https://github.com/zenklinov/AutoML-System-with-Neural-Architecture-Search',
             title: 'AutoML System with Neural Architecture Search',
             demo: false,
